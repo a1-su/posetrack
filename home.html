@@ -1,0 +1,273 @@
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Pose Track</title>
+</head>
+<body class="background">
+  <!-- NAVBAR -->
+  <nav class="animated4 fadeInTop navbar navbar-expand-lg navbar-light transperent sticky-top">
+
+    <!-- TITLE -->
+    <a class="navbar-brand" href="#">
+      <div class="pop">
+        <span class="nav-title rounded-circle px-4 py-3 h1 align-top mb-5">PoseTrack</span>
+      </div>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+
+        <!-- HOME NAV BUTTON -->
+        <li class="nav-item active">
+          <a class="nav-link ripple-btn px-4 py-4 nav-button" href="home.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <!-- ABOUT NAV BUTTON -->
+        <li class="nav-item">
+          <a class="nav-link ripple-btn px-4 py-4 nav-button" href="home.html#about-section">About</a>
+        </li>
+
+        <!-- EXERCISES NAV DROPDOWN -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle ripple-btn px-4 py-4 nav-button" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Exercises
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#point-tapping-section">Point Tapping</a>
+            <a class="dropdown-item" href="#hole-in-the-wall-section">Hole In The Wall</a>
+            <a class="dropdown-item" href="#dodge-point-section">Dodge Point</a>
+          </div>
+        </li>
+
+      </ul>
+
+      <!-- START NAV BUTTON -->
+      <ul class="nav navbar-nav ml-auto">
+        <li>
+          <a href="main.html#main-section" class="nav-link ripple-btn px-5 py-3 rounded nav-start text-white text-center align-top pop">
+            <span>Start</span>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!-- MAIN PAGE -->
+  <div class="container">
+    <!-- MAIN PAGE TITLE -->
+    <div class="row justify-content-center">
+      <div class="col-md d-flex align-items-center justify-content-center animated1 fadeInLeft">
+        <!-- TITLE -->
+        <h1 class="main-title pop">PoseTrack</h1>
+      </div>
+    </div>
+
+    <!-- MAIN PAGE SUBTITLE -->
+    <div class="row justify-content-center">
+      <div class="col-md d-flex align-items-center justify-content-center animated2 fadeInLeft">
+        <!-- SUBTITLE -->
+        <p class="subtitle pop">The virtual exercise application.</p>
+      </div>
+    </div>
+
+    <!-- MAIN PAGE BUTTONS -->
+    <div class="row justify-content-center">
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <div class="animated4 fadeInLeft">
+          <button class="btn highlight-bg main-btn selecttitle pop"><a href="main.html#main-section" class="selecttitle">Start game</a></button>
+        </div>
+        <div class="animated3 fadeInLeft">
+         <button class="btn bg-dark text-white selecttitle main-btn pop"><a href="home.html#example-section" class="selecttitle">See example</a></button>
+       </div>
+     </div>
+   </div>
+
+   <!-- REST OF PAGE -->
+   <div class="container animated6 fadeInBottom bg-light content">
+
+    <!-- EXAMPLES CONTENT -->
+    <div class="row justify-content-center">
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <!-- EXAMPLES HEADING -->
+        <h1 class="contenttitle pop" id="example-section">Examples</h1>
+      </div>
+    </div>
+
+    <!-- EXAMPLE VIDEO #1 -->
+    <div class="row justify-content-center">
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <video width="100%" height="" muted autoplay loop>
+          <source src="MediaVideos/Example1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            <!-- ADDED CLOSING SOURCE TAGS AS OTHERWISE SUBLIME WON'T INDENT PROPERLY -->
+          </source>
+        </video>
+      </div>
+    </div>
+
+    <!-- EXAMPLE VIDEO #2 -->
+    <div class="row justify-content-center">
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <video width="100%" height="" muted autoplay loop>
+          <source src="MediaVideos/Example2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            <!-- ADDED CLOSING SOURCE TAGS AS OTHERWISE SUBLIME WON'T INDENT PROPERLY -->
+          </source>
+        </video>
+      </div>
+    </div>
+
+    <!-- ABOUT CONTENT -->
+    <div class="row justify-content-center highlight-bg-light">
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <h1 class="contenttitle pop" id="about-section">About</h1>
+      </div>
+    </div>
+
+    <!-- ABOUT DESCRIPTION -->
+    <div class="row justify-content-center highlight-bg-light">
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <p class="subtitle pop">
+          During this time of quarantine, where it is not only hard to exercise but difficult to find the drive to stay fit, PoseTrack is here to motivate the you into remaining healthy with a series of games and activities involving movement in front of the camera. For many people, engaging in athletic movement is an important part of daily life and times without it can be monotone and lacking. Although there are many applications and websites focused on personalized health plans or staying active, it can be difficult to find incentive, especially during the pandemic, which is what this product attempts to solve. In fact, only one in three adults are physically active each day.
+        </p>
+      </div>
+    </div>
+
+    <!-- ABOUT FOOTER -->
+    <div class="row justify-content-center highlight-bg-light">
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <p class="descriptiontitle text-muted pop">
+          This is a programming project by Alan Su. 
+        </p>
+      </div>
+    </div>
+
+    <!-- EXERCISES CONTENT -->
+    <div class="row justify-content-center">
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <h1 class="contenttitle pop" id="exercise-section">Exercises</h1>
+      </div>
+    </div>
+
+    <!-- POINT TAPPING DESCRIPTION -->
+    <div class="row justify-content-center bg-light"  id="point-tapping-section">
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <p class="subtitle pop">
+          <b class="supertitle">Point Tapping</b> is a game where you try and use your avatar to tap the points on screen as fast as possible. Since there is no time limit, it makes a good warmup before you start your real exercise.
+        </p>
+      </div>
+    </div>
+
+    <!-- POINT TAPPING VIDEO -->
+    <div class="row justify-content-center">
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <div class="row justify-content-center">
+          <div class="col-md d-flex align-items-center justify-content-center">
+            <video width="100%" height="" muted autoplay loop>
+              <source src="MediaVideos/PointTapping.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </source>
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SPACING -->
+    <div class="row justify-content-center bg-light">
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <p class="subtitle pop">
+          <br>
+          <br>
+        </p>
+      </div>
+    </div>
+
+    <!-- HOLE IN THE WALL DESCRIPTION -->
+    <div class="row justify-content-center bg-light"  id="hole-in-the-wall-section">
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <p class="subtitle pop">
+          <b class="supertitle">Hole in the Wall</b> is an activity where you and your avatar attempt to fit through a series of holes. Orange means you are in the safe zone, for now, green means you have passed this hole, light red means you are in danger of failing, and red means you have failed this hole. Make sure to be quick on your feet and ready or you might not make it in time!
+        </p>
+      </div>
+    </div>
+
+    <!-- HOLE IN THE WALL VIDEO -->
+    <div class="row justify-content-center">
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <div class="row justify-content-center">
+          <div class="col-md d-flex align-items-center justify-content-center">
+            <video width="100%" height="" muted autoplay loop>
+              <source src="MediaVideos/HoleintheWall.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </source>
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SPACING -->
+    <div class="row justify-content-center bg-light">
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <p class="subtitle pop">
+          <br>
+          <br>
+        </p>
+      </div>
+    </div>
+
+    <!-- DODGE POINT DESCRIPTION -->
+    <div class="row justify-content-center bg-light" id="dodge-point-section">
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <p class="subtitle pop">
+          <b class="supertitle">Dodge Point</b> is a fast-paced test of reaction time, flexibility, and agility. Your goal is to dodge and weak past increasing targets for the longest time possible. The targest will begin as orange, which are warnings for you to leave their area. Once they turn red, any thing inside will be immediately obliterated. Just kidding. Any red circle you come in contact with will simple reappear at a different location, but it will be ahead of the others, making the game more difficult the more errors are made. Good luck!
+        </p>
+      </div>
+    </div>
+
+    <!-- DODGE POINT VIDEO -->
+    <div class="row justify-content-center">
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <div class="row justify-content-center">
+          <div class="col-md d-flex align-items-center justify-content-center">
+            <video width="100%" height="" muted autoplay loop>
+              <source src="MediaVideos/DodgePoint.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </source>
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- FOR RIPPLE EFFECT -->
+  <script src="script.js"></script>
+</body>
+</html>
