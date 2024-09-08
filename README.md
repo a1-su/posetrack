@@ -1,4 +1,4 @@
-# posetrack
+# PoseTrack
 A silly exercise application that encourages physical activity by tracking the user's pose.
 
 ![Home](media/Home.png)
